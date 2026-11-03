@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R9EW10BJGW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-R9EW10BJGW');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FD RD Calculator India 2025 – Fixed & Recurring Deposit Calculator</title>
+<meta name="description" content="Free FD and RD calculator India. Calculate maturity amount, interest earned, effective yield for fixed deposits and recurring deposits. Compare SBI, HDFC, ICICI rates.">
+<meta name="keywords" content="fd calculator india, fixed deposit calculator, rd calculator, recurring deposit calculator, fd interest calculator, sbi fd calculator, hdfc fd calculator, fd maturity calculator 2025">
+<link rel="canonical" href="https://nxtcraft.github.io/fdcalc/">
+<meta property="og:title" content="FD RD Calculator India — Fixed & Recurring Deposit">
+<meta property="og:description" content="Calculate FD and RD maturity amount and interest. Compare bank rates. Free, instant, no signup.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nxtcraft.github.io/fdcalc/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="/fdcalc/manifest.json">
+<meta name="theme-color" content="#059669">
+<meta name="mobile-web-app-capable" content="yes">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"FD RD Calculator India","url":"https://nxtcraft.github.io/fdcalc/","description":"Calculate maturity amount and interest for FD and RD. Compare bank rates.","applicationCategory":"FinanceApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is FD interest calculated?","acceptedAnswer":{"@type":"Answer","text":"FD interest (compounded quarterly) = P × (1 + r/4)^(4×n) − P, where P is principal, r is annual rate, n is tenure in years. For simple interest FDs: Interest = P × r × n / 100."}},{"@type":"Question","name":"What is the difference between FD and RD?","acceptedAnswer":{"@type":"Answer","text":"FD (Fixed Deposit): You invest a lump sum once and earn interest over the tenure. RD (Recurring Deposit): You invest a fixed amount every month and earn interest on each instalment. RD suits monthly savers; FD suits those with lump-sum savings."}},{"@type":"Question","name":"Is FD interest taxable?","acceptedAnswer":{"@type":"Answer","text":"Yes. FD interest is taxable as per your income tax slab. Banks deduct TDS at 10% if interest exceeds ₹40,000 per year (₹50,000 for senior citizens). Submit Form 15G/15H if your total income is below the taxable limit."}},{"@type":"Question","name":"Which bank gives highest FD interest rate in India 2025?","acceptedAnswer":{"@type":"Answer","text":"Small finance banks like Unity SFB (9%), Suryoday SFB (8.6%), ESAF SFB (8.5%) offer highest rates. Among large banks: HDFC (7.25%), SBI (7.1%), ICICI (7.25%). Senior citizens typically get 0.25–0.5% extra."}}]}</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f0fdf4;--surface:#fff;--border:#d1fae5;--text:#064e3b;--muted:#6b7280;--accent:#059669;--accent2:#10b981;--dark:#022c22}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh}
+nav{background:var(--accent);color:#fff;padding:0 1.5rem;height:52px;display:flex;align-items:center;gap:1rem}
+.nav-brand{font-weight:800;font-size:1.1rem;letter-spacing:-.01em}
+.nav-links{margin-left:auto;display:flex;gap:1rem}
+.nav-links a{color:rgba(255,255,255,.8);font-size:.85rem;text-decoration:none}
+.nav-links a:hover{color:#fff}
+main{max-width:960px;margin:0 auto;padding:1.5rem}
+h1{font-size:1.6rem;font-weight:800;margin-bottom:.3rem}
+.subtitle{color:var(--muted);margin-bottom:1.5rem;font-size:.95rem}
+.tabs{display:flex;background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:1.5rem}
+.tab{flex:1;padding:.7rem;text-align:center;cursor:pointer;font-weight:600;font-size:.9rem;color:var(--muted);transition:all .2s}
+.tab.active{background:var(--accent);color:#fff}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+@media(max-width:640px){.grid2{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.25rem}
+.card-title{font-weight:700;font-size:.95rem;margin-bottom:1rem;color:var(--accent)}
+label{display:block;font-size:.82rem;font-weight:600;color:var(--muted);margin-bottom:.3rem;margin-top:.75rem}
+label:first-child{margin-top:0}
+input[type=number],input[type=range],select{width:100%;background:var(--bg);border:1.5px solid var(--border);color:var(--text);border-radius:8px;padding:.5rem .75rem;font-size:.9rem;outline:none}
+input:focus{border-color:var(--accent)}
+input[type=range]{padding:.3rem 0;accent-color:var(--accent)}
+.result-hero{background:linear-gradient(135deg,#064e3b,#065f46);color:#fff;border-radius:14px;padding:1.5rem;margin-bottom:1rem}
+.result-hero .label{font-size:.82rem;opacity:.7;margin-bottom:.3rem}
+.result-hero .big{font-size:2.2rem;font-weight:900;letter-spacing:-.02em}
+.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:1rem}
+@media(max-width:480px){.result-grid{grid-template-columns:repeat(2,1fr)}}
+.rc{background:rgba(255,255,255,.1);border-radius:10px;padding:.75rem;text-align:center}
+.rc .v{font-size:1.05rem;font-weight:800}
+.rc .l{font-size:.7rem;opacity:.65;margin-top:.2rem}
+.bar-wrap{margin-top:.75rem}
+.bar-label{display:flex;justify-content:space-between;font-size:.8rem;margin-bottom:.3rem}
+.bar-track{height:12px;background:rgba(255,255,255,.15);border-radius:6px;overflow:hidden}
+.bar-fill{height:100%;background:#6ee7b7;border-radius:6px;transition:width .5s}
+.bank-table{width:100%;border-collapse:collapse;font-size:13px;margin-top:.5rem}
+.bank-table th{background:#d1fae5;color:#064e3b;padding:7px 10px;text-align:left;font-weight:700}
+.bank-table td{padding:6px 10px;border-bottom:1px solid #d1fae5}
+.bank-table tr:hover td{background:#f0fdf4}
+.highlight{color:var(--accent);font-weight:700}
+.panel{display:none}.panel.active{display:block}
+.range-row{display:flex;align-items:center;gap:.75rem}
+.range-val{font-weight:700;color:var(--accent);min-width:48px;text-align:right;font-size:.9rem}
+.seo{margin-top:2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.5rem}
+.seo h2{font-size:1.1rem;margin-bottom:.75rem}
+.seo h3{font-size:.95rem;margin:.75rem 0 .4rem}
+.seo p,.seo li{font-size:.88rem;color:var(--muted);line-height:1.6}
+.seo ul,.seo ol{padding-left:1.2rem}
+footer{text-align:center;padding:2rem;color:var(--muted);font-size:.8rem;margin-top:2rem;border-top:1px solid var(--border)}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">💰 FDCalc</span>
+  <div class="nav-links">
+    <a href="https://nxtcraft.github.io/">All Tools</a>
+    <a href="https://nxtcraft.github.io/sipcalc/">SIPCalc</a>
+    <a href="https://nxtcraft.github.io/emicalc/">EMICalc</a>
+  </div>
+</nav>
+<main>
+  <h1>FD &amp; RD Calculator</h1>
+  <p class="subtitle">Calculate maturity amount and interest for Fixed Deposits and Recurring Deposits. Updated bank rates for 2025.</p>
+
+  <div class="tabs">
+    <div class="tab active" id="tab-fd" onclick="switchTo('fd')">🏦 Fixed Deposit (FD)</div>
+    <div class="tab" id="tab-rd" onclick="switchTo('rd')">🔄 Recurring Deposit (RD)</div>
+    <div class="tab" id="tab-compare" onclick="switchTo('compare')">⚖️ Compare Banks</div>
+  </div>
+
+  <!-- FD PANEL -->
+  <div class="panel active" id="panel-fd">
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">FD Details</div>
+        <label>Principal Amount (₹)</label>
+        <input type="number" id="fd-principal" value="100000" min="1000" oninput="calcFD()">
+        <label>Annual Interest Rate (%)</label>
+        <div class="range-row">
+          <input type="range" id="fd-rate-range" min="3" max="10" step="0.05" value="7.1" oninput="document.getElementById('fd-rate').value=this.value;calcFD()">
+          <input type="number" id="fd-rate" value="7.1" step="0.05" min="1" max="20" style="width:80px" oninput="document.getElementById('fd-rate-range').value=this.value;calcFD()">
+        </div>
+        <label>Tenure</label>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem">
+          <div>
+            <input type="number" id="fd-years" value="2" min="0" max="10" placeholder="Years" oninput="calcFD()">
+            <div style="font-size:.75rem;color:var(--muted);margin-top:.2rem">Years</div>
+          </div>
+          <div>
+            <input type="number" id="fd-months" value="0" min="0" max="11" placeholder="Months" oninput="calcFD()">
+            <div style="font-size:.75rem;color:var(--muted);margin-top:.2rem">Months</div>
+          </div>
+        </div>
+        <label>Compounding Frequency</label>
+        <select id="fd-comp" onchange="calcFD()">
+          <option value="4" selected>Quarterly (standard)</option>
+          <option value="12">Monthly</option>
+          <option value="2">Half-yearly</option>
+          <option value="1">Yearly</option>
+          <option value="0">Simple Interest</option>
+        </select>
+        <label>Senior Citizen? (+0.5% rate)</label>
+        <select id="fd-senior" onchange="calcFD()">
+          <option value="0">No</option>
+          <option value="0.5">Yes (+0.5%)</option>
+        </select>
+      </div>
+      <div>
+        <div class="result-hero">
+          <div class="label">Maturity Amount</div>
+          <div class="big" id="fd-maturity">—</div>
+          <div class="result-grid">
+            <div class="rc"><div class="v" id="fd-principal-show">—</div><div class="l">Principal</div></div>
+            <div class="rc"><div class="v" id="fd-interest-show">—</div><div class="l">Interest Earned</div></div>
+            <div class="rc"><div class="v" id="fd-yield-show">—</div><div class="l">Effective Yield</div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-label"><span>Principal</span><span>Interest</span></div>
+            <div class="bar-track"><div class="bar-fill" id="fd-bar"></div></div>
+          </div>
+        </div>
+        <div class="card" id="fd-breakdown-card">
+          <div class="card-title">Tax Estimate</div>
+          <div id="fd-tax-info" style="font-size:13px;line-height:1.8;color:var(--muted)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RD PANEL -->
+  <div class="panel" id="panel-rd">
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">RD Details</div>
+        <label>Monthly Instalment (₹)</label>
+        <input type="number" id="rd-monthly" value="5000" min="100" oninput="calcRD()">
+        <label>Annual Interest Rate (%)</label>
+        <div class="range-row">
+          <input type="range" id="rd-rate-range" min="3" max="10" step="0.05" value="6.7" oninput="document.getElementById('rd-rate').value=this.value;calcRD()">
+          <input type="number" id="rd-rate" value="6.7" step="0.05" min="1" max="20" style="width:80px" oninput="document.getElementById('rd-rate-range').value=this.value;calcRD()">
+        </div>
+        <label>Tenure (months)</label>
+        <div class="range-row">
+          <input type="range" id="rd-tenure-range" min="6" max="120" value="24" oninput="document.getElementById('rd-tenure').value=this.value;calcRD()">
+          <span class="range-val" id="rd-tenure-val">24 mo</span>
+        </div>
+        <input type="number" id="rd-tenure" value="24" min="6" max="120" style="display:none" oninput="document.getElementById('rd-tenure-range').value=this.value;document.getElementById('rd-tenure-val').textContent=this.value+' mo';calcRD()">
+        <label>Senior Citizen? (+0.5% rate)</label>
+        <select id="rd-senior" onchange="calcRD()">
+          <option value="0">No</option>
+          <option value="0.5">Yes (+0.5%)</option>
+        </select>
+      </div>
+      <div>
+        <div class="result-hero">
+          <div class="label">RD Maturity Amount</div>
+          <div class="big" id="rd-maturity">—</div>
+          <div class="result-grid">
+            <div class="rc"><div class="v" id="rd-invested">—</div><div class="l">Total Invested</div></div>
+            <div class="rc"><div class="v" id="rd-interest">—</div><div class="l">Interest Earned</div></div>
+            <div class="rc"><div class="v" id="rd-yield">—</div><div class="l">Effective Yield</div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-label"><span>Invested</span><span>Interest</span></div>
+            <div class="bar-track"><div class="bar-fill" id="rd-bar"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Monthly Growth</div>
+          <div id="rd-monthly-detail" style="font-size:13px;color:var(--muted)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARE PANEL -->
+  <div class="panel" id="panel-compare">
+    <div class="card" style="margin-bottom:1rem">
+      <div class="card-title">Your Investment Details</div>
+      <div class="grid2">
+        <div>
+          <label>Principal (₹)</label>
+          <input type="number" id="cmp-principal" value="100000" oninput="calcCompare()">
+        </div>
+        <div>
+          <label>Tenure (years)</label>
+          <input type="number" id="cmp-tenure" value="2" min="1" max="10" oninput="calcCompare()">
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">Bank-wise FD Maturity (Quarterly Compounding)</div>
+      <table class="bank-table">
+        <thead><tr><th>Bank</th><th>Rate (General)</th><th>Rate (Sr. Citizen)</th><th>Maturity</th><th>Interest</th></tr></thead>
+        <tbody id="compare-body"></tbody>
+      </table>
+      <p style="font-size:11px;color:var(--muted);margin-top:.5rem">* Rates are indicative. Verify with the bank before investing. Updated Nov 2025.</p>
+    </div>
+  </div>
+
+  <div class="seo">
+    <h2>FD vs RD — Which is Better?</h2>
+    <h3>Fixed Deposit (FD)</h3>
+    <p>Invest a lump sum once. Interest compounds quarterly. Best when you have idle savings. Returns are guaranteed and predictable. Tenure: 7 days to 10 years.</p>
+    <h3>Recurring Deposit (RD)</h3>
+    <p>Invest a fixed amount every month. Ideal for salaried individuals who want to save systematically without a large upfront amount. Tenure: 6 months to 10 years.</p>
+    <h3>FD Interest Formula (Compound)</h3>
+    <p>M = P × (1 + r/n)^(n×t) | P = Principal, r = annual rate, n = compounding per year, t = tenure in years</p>
+    <h3>Tax on FD Interest</h3>
+    <ul>
+      <li>Interest is taxable as per income slab</li>
+      <li>TDS at 10% if interest &gt; ₹40,000/year (₹50,000 for senior citizens)</li>
+      <li>Submit Form 15G (below 60) or 15H (senior citizen) to avoid TDS if income below taxable limit</li>
+    </ul>
+  </div>
+</main>
+<footer>
+  <p>FDCalc by <a href="https://nxtcraft.github.io/" style="color:var(--accent)">NxtCraft</a> — Free financial calculators, no signup.</p>
+</footer>
+
+<script>
+const BANKS = [
+  { name:'SBI', gen:7.10, sr:7.60 },
+  { name:'HDFC Bank', gen:7.25, sr:7.75 },
+  { name:'ICICI Bank', gen:7.25, sr:7.75 },
+  { name:'Axis Bank', gen:7.20, sr:7.75 },
+  { name:'Bank of Baroda', gen:7.15, sr:7.65 },
+  { name:'Kotak Mahindra', gen:7.40, sr:7.90 },
+  { name:'PNB', gen:7.05, sr:7.55 },
+  { name:'Canara Bank', gen:7.15, sr:7.65 },
+  { name:'Union Bank', gen:7.00, sr:7.50 },
+  { name:'Yes Bank', gen:7.75, sr:8.25 },
+  { name:'IDFC First', gen:7.90, sr:8.40 },
+  { name:'Unity SFB', gen:9.00, sr:9.50 },
+];
+
+function fmt(n) {
+  if (n >= 1e7) return '₹'+(n/1e7).toFixed(2)+' Cr';
+  if (n >= 1e5) return '₹'+(n/1e5).toFixed(2)+' L';
+  return '₹'+Math.round(n).toLocaleString('en-IN');
+}
+
+function fdMaturity(p, rAnnual, years, months, comp) {
+  const totalMonths = years * 12 + months;
+  const t = totalMonths / 12;
+  if (comp === 0) return p + p * rAnnual / 100 * t; // simple interest
+  const n = comp;
+  return p * Math.pow(1 + rAnnual / (100 * n), n * t);
+}
+
+function calcFD() {
+  const p = +document.getElementById('fd-principal').value || 0;
+  const rate = (+document.getElementById('fd-rate').value || 0) + (+document.getElementById('fd-senior').value || 0);
+  const years = +document.getElementById('fd-years').value || 0;
+  const months = +document.getElementById('fd-months').value || 0;
+  const comp = +document.getElementById('fd-comp').value;
+
+  const maturity = fdMaturity(p, rate, years, months, comp);
+  const interest = maturity - p;
+  const totalMonths = years * 12 + months;
+  const yield_ = totalMonths > 0 ? (interest / p / (totalMonths / 12) * 100).toFixed(2) : '0';
+  const intPct = Math.round(interest / maturity * 100);
+
+  document.getElementById('fd-maturity').textContent = fmt(maturity);
+  document.getElementById('fd-principal-show').textContent = fmt(p);
+  document.getElementById('fd-interest-show').textContent = fmt(interest);
+  document.getElementById('fd-yield-show').textContent = yield_ + '%';
+  document.getElementById('fd-bar').style.width = (100 - intPct) + '%';
+
+  // TDS estimate
+  const tds40 = interest > 40000 ? Math.round(interest * 0.10) : 0;
+  document.getElementById('fd-tax-info').innerHTML = `
+    <b>Total Interest Earned:</b> ${fmt(interest)}<br>
+    <b>TDS (10% if &gt;₹40K):</b> ${tds40 > 0 ? fmt(tds40) : 'Not applicable'}<br>
+    <b>Interest after TDS:</b> ${fmt(interest - tds40)}<br>
+    <span style="font-size:11px">Actual tax depends on your slab. Submit Form 15G/15H if eligible.</span>`;
+}
+
+function calcRD() {
+  const monthly = +document.getElementById('rd-monthly').value || 0;
+  const rate = (+document.getElementById('rd-rate').value || 0) + (+document.getElementById('rd-senior').value || 0);
+  const n = +document.getElementById('rd-tenure').value || 1;
+  const r = rate / 400; // quarterly rate
+
+  // RD formula: M = R × [(1+r)^n - 1] / (1-(1+r)^(-1/3))
+  // Simplified standard RD formula (quarterly compounding):
+  let maturity = 0;
+  for (let i = 1; i <= n; i++) {
+    const quarters = (n - i + 1) / 3;
+    maturity += monthly * Math.pow(1 + r, quarters);
+  }
+
+  const invested = monthly * n;
+  const interest = maturity - invested;
+  const yield_ = invested > 0 ? (interest / invested * 12 / n * 100).toFixed(2) : '0';
+  const intPct = Math.round(interest / maturity * 100);
+
+  document.getElementById('rd-maturity').textContent = fmt(maturity);
+  document.getElementById('rd-invested').textContent = fmt(invested);
+  document.getElementById('rd-interest').textContent = fmt(interest);
+  document.getElementById('rd-yield').textContent = yield_ + '%';
+  document.getElementById('rd-bar').style.width = (100 - intPct) + '%';
+  document.getElementById('rd-tenure-val').textContent = n + ' mo (' + (n/12).toFixed(1) + ' yr)';
+
+  document.getElementById('rd-monthly-detail').innerHTML =
+    `Monthly: ${fmt(monthly)} × ${n} months<br>Total invested: ${fmt(invested)}<br>Interest earned: ${fmt(interest)}<br>Maturity: <b>${fmt(maturity)}</b>`;
+}
+
+function calcCompare() {
+  const p = +document.getElementById('cmp-principal').value || 0;
+  const years = +document.getElementById('cmp-tenure').value || 1;
+  const tbody = document.getElementById('compare-body');
+  const rows = BANKS.map(b => {
+    const mat = fdMaturity(p, b.gen, years, 0, 4);
+    const matSr = fdMaturity(p, b.sr, years, 0, 4);
+    return { b, mat, matSr, int: mat - p };
+  }).sort((a,b) => b.mat - a.mat);
+
+  tbody.innerHTML = rows.map((r, i) => `<tr>
+    <td><b>${r.b.name}</b>${i===0?' <span style="background:#d1fae5;color:#065f46;border-radius:4px;padding:1px 5px;font-size:10px;font-weight:700">Best</span>':''}</td>
+    <td class="${i===0?'highlight':''}">${r.b.gen}%</td>
+    <td>${r.b.sr}%</td>
+    <td class="${i===0?'highlight':''}">${fmt(r.mat)}</td>
+    <td>${fmt(r.int)}</td>
+  </tr>`).join('');
+}
+
+function switchTo(tab) {
+  ['fd','rd','compare'].forEach(t => {
+    document.getElementById('panel-'+t).classList.toggle('active', t===tab);
+    document.getElementById('tab-'+t).classList.toggle('active', t===tab);
+  });
+  if (tab==='compare') calcCompare();
+}
+
+// Init
+calcFD(); calcRD(); calcCompare();
+
+document.getElementById('rd-tenure-range').addEventListener('input', function() {
+  document.getElementById('rd-tenure').value = this.value;
+  calcRD();
+});
+</script>
+<script>if('serviceWorker'in navigator)navigator.serviceWorker.register('/fdcalc/sw.js');</script>
+</body>
+</html>
